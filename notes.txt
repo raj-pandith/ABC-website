@@ -51,3 +51,5 @@ keerthana acc (code) -->
 PR : pull request
 ------------------
 local pc (code) --push-> (keerthana)github --PR button--> (raj)github  --git pull--> local pc
+
+understood git and github concepts
