@@ -1,0 +1,53 @@
+1) git init - intitalize /start tracking file
+2) git status - status of tracking / untracking file / modified
+3) git add file-name : start watching this file
+4) git commit -m "message" : taking photo of stable code
+5) git log : show all commits
+
+
+branch-naming : yourname/feature : eg : raj/header
+
+6) git branch branch-name : creating a branch
+7) git switch branch-name : chainging branch (view)
+8) git branch : to see all branch and also *
+9) git merge branch-name : 
+       switch to place where you want to add code (master)
+       then merge
+
+
+branching (view)
+---------
+
+
+
+master(main view) for deploying(user can see it)
+---------------> (index.html) empty site header, deployed
+  |
+   ------->(raj/header branch) commit header, raj developing
+  |
+   --------> (create footer task by keerthana) 
+
+
+
+merge conflict ?: 
+  main directly changed
+  sub changed 
+  when we merge then confict occurs 
+
+stash : (when we don't want to commit because not fully completed the task)
+--------
+ 10) git stash : to remove the changes and go to last commit 
+ 11) git stash pop : to apply removed changes
+
+
+raj acc (code) ---> keerthana acc  // fork
+keerthana acc (code) --> 
+  1) first time : create a empty folder -> git clone by repolink 
+   project created  in your local computer
+  2) second time : 
+      already project setup
+      git pull
+  
+PR : pull request
+------------------
+local pc (code) --push-> (keerthana)github --PR button--> (raj)github  --git pull--> local pc
