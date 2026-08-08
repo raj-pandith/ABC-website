@@ -40,6 +40,14 @@ stash : (when we don't want to commit because not fully completed the task)
  11) git stash pop : to apply removed changes
 
 
-
-
+raj acc (code) ---> keerthana acc  // fork
+keerthana acc (code) --> 
+  1) first time : create a empty folder -> git clone by repolink 
+   project created  in your local computer
+  2) second time : 
+      already project setup
+      git pull
   
+PR : pull request
+------------------
+local pc (code) --push-> (keerthana)github --PR button--> (raj)github  --git pull--> local pc
